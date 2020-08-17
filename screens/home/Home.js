@@ -62,7 +62,7 @@ let dockApps = [{
   link: 'mailto:ron@ronforbes.me'
 }, {
   icon: require('../../assets/images/dark/Graphics/AppIcons/Settings.png'),
-  link: 'https://github.com/ronforbes'
+  link: 'https://github.com/ronforbes/ios-home'
 }];
 
 export default class Home extends Component {

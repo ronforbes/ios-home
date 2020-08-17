@@ -77,7 +77,7 @@ export default class LockScreen extends Component {
           <View style={styles.swipe}>
             <Text
               style={styles.swipeText}
-              onPress={() => Animated.timing(this.animatedValue, { toValue: -height, duration: 250, useNativeDriver: true}).start()}>Tap up to open</Text>
+              onPress={() => Animated.timing(this.animatedValue, { toValue: -height, duration: 250, useNativeDriver: true}).start()}>Tap to open</Text>
           </View>
         </SafeAreaView>
       </Animated.View>

@@ -27,7 +27,7 @@ const styles = StyleSheet.create({
   dockIcon: {
     width: 60,
     height: 60,
-    marginLeft: 22,
-    marginRight: 22
+    marginLeft: 15,
+    marginRight: 15
   }
 });

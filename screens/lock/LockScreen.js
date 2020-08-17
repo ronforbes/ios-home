@@ -95,6 +95,7 @@ const styles = StyleSheet.create({
     transform: [{
       translateY: -0 * height
     }],
+    overflow: "hidden"
   },
   datetime: {
     height: 180,

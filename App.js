@@ -32,7 +32,7 @@ export default class App extends React.Component {
   render() {
     if(this.state.assetsLoaded) {
       return (
-        <View style={{ flex: 1 }}>
+        <View style={{ flex: 1, overflow: 'hidden' }}>
           <Home />
           <LockScreen />
         </View>

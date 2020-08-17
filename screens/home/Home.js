@@ -52,11 +52,11 @@ let apps = [{
 }];
 
 let dockApps = [{
-  icon: require('../../assets/images/dark/Graphics/AppIcons/Messages.png'),
+  icon: require('../../assets/images/dark/Graphics/AppIcons/Safari.png'),
   link: 'https://google.com'
 }, {
-  icon: require('../../assets/images/dark/Graphics/AppIcons/Messages.png'),
-  link: 'https://google.com'
+  icon: require('../../assets/images/dark/Graphics/AppIcons/AppStore.png'),
+  link: 'https://apple.com'
 }, {
   icon: require('../../assets/images/dark/Graphics/AppIcons/Mail.png'),
   link: 'mailto:ron@ronforbes.me'
@@ -130,8 +130,8 @@ const styles = StyleSheet.create({
     //backgroundColor: '#fff'
   },
   dock: {
-    marginLeft: 22,
-    marginRight: 22,
+    marginLeft: 0,
+    marginRight: 0,
     position: 'absolute',
     //left: 0,
     //right: 0,
